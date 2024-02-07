@@ -1,0 +1,77 @@
+/* body {
+      background:#000
+} */
+
+
+#enquiry_form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    #form_success,
+    #form_error {
+      display: none;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    
+    #form_success {
+      background-color: green;
+      color: #fff;
+    }
+    
+    #form_error {
+      background-color: red;
+      color: #fff;
+    }
+    
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: border-color 0.3s ease;
+    }
+    
+    input[type="text"]:focus,
+    textarea:focus {
+      border-color: dodgerblue;
+      outline: none;
+    }
+    
+    button[type="submit"] {
+      background-color: dodgerblue;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #8615f7;
+    }
+    .input-animation {
+      animation: inputAnimation 0.3s ease forwards;
+      
+    }
+    
+  
+    @keyframes inputAnimation {
+      
+      from {
+      
+        transform: scale(1);
+      }
+      to {
+            background-color: #c4f8ff;
+        transform: scale(1.05);
+      }
+    }
